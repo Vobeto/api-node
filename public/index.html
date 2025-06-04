@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>API Node + Prisma</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo à API de Usuários e Posts</h1>
+    <p>Esta é uma API REST criada com Node.js, Express, TypeScript e Prisma.</p>
+
+    <h2>Rotas disponíveis:</h2>
+    <ul>
+      <li><strong>GET /users</strong> - Lista todos os usuários com seus posts.</li>
+      <li><strong>POST /users</strong> - Cria um novo usuário.<br/>
+        <code>{ "name": "Maria", "email": "maria@example.com" }</code>
+      </li>
+      <li><strong>GET /posts</strong> - Lista todos os posts com seus autores.</li>
+      <li><strong>POST /posts</strong> - Cria um novo post.<br/>
+        <code>{ "title": "Título", "content": "Texto", "authorId": 1 }</code>
+      </li>
+    </ul>
+
+    <p>Use ferramentas como <strong>Postman</strong> ou <strong>Insomnia</strong> para testar as rotas <code>POST</code>.</p>
+  </div>
+</body>
+</html>
